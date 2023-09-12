@@ -27,9 +27,15 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center">
                     <ul className="menu menu-horizontal px-4 space-x-3">
-                        <ActiveLink className="mx-2  font-semibold text-white" to="/">Home</ActiveLink>
-                        <ActiveLink className="mx-2  font-semibold text-white" to="/blog">Blog</ActiveLink>
-                        <ActiveLink className="mx-2  font-semibold text-white" to="/about">About</ActiveLink>
+                        <li className="text-white">
+                            <ActiveLink className="mx-2 font-semibold " to="/">Home</ActiveLink>
+                        </li>
+                        <li className="text-white">
+                            <ActiveLink className="mx-2 font-semibold " to="/blog">Blog</ActiveLink>
+                        </li>
+                        <li className="text-white">
+                            <ActiveLink className="mx-2 font-semibold " to="/about">About</ActiveLink>
+                        </li>
                     </ul>
                 </div>
                 <div className="navbar-end">
